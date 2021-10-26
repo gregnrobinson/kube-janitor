@@ -20,7 +20,7 @@ spec:
       containers:
       - name: janitor
         # see https://codeberg.org/hjacobs/kube-janitor/releases
-        image: hjacobs/kube-janitor:20.10.0
+        image: gregnrobinson/kube-janitor:latest
         args:
           # dry run by default, remove to perform clean up
           - --dry-run
