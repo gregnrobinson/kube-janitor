@@ -5,7 +5,9 @@ Kubernetes Janitor
 [![Code Coverage](https://coveralls.io/repos/github/hjacobs/kube-janitor/badge.svg?branch=master;_=1)](https://coveralls.io/github/hjacobs/kube-janitor?branch=master)
 [![Docker pulls](https://img.shields.io/docker/pulls/hjacobs/kube-janitor.svg)](https://hub.docker.com/r/hjacobs/kube-janitor)
 [![CalVer versioning scheme](https://img.shields.io/badge/calver-YY.MM.MICRO-22bfda.svg)](http://calver.org/)
-<*a href="https://snyk.io/test/github/{username}/{repo}">
+[![Known Vulnerabilities](https://snyk.io/test/github/{username}/{repo}/badge.svg)]
+
+(https://snyk.io/test/github/{username}/{repo})
 
 Kubernetes Janitor cleans up (deletes) Kubernetes resources on (1) a
 configured TTL (time to live) or (2) a configured expiry date (absolute
